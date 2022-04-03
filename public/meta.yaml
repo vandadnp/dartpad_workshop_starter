@@ -20,3 +20,9 @@ steps:
   - name: Rendering Text
     directory: rendering_text
     has_solution: true
+  - name: Text Input
+    directory: text_input
+    has_solution: true
+  - name: Buttons
+    directory: buttons
+    has_solution: true

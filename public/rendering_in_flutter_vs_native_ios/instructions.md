@@ -4,7 +4,7 @@ If we take the example from the previous section and run it on an iOS Simulator 
 
 That's right! Everything that you see on the screen rendered by Flutter, is done through Flutter's rendering engine, Skia. Skia takes the code that you've written in your Flutter application, and uses native rendering techniques in order to display your application's UI to the user. That means your UI is very flat and rendered by Metal on iOS and OpenGLES on Android in order to ensure maximum performance.
 
-If you look at how the previous exmaple is rendered in a native SwiftUI application, your UI in the 3D Debugger will look like this:
+If you look at how the previous example is rendered in a native SwiftUI application, your UI in the 3D Debugger will look like this:
 
 ![](http://localhost:8080/images/rendering_in_flutter_vs_native_ios_image_1.png)
 
