@@ -17,3 +17,6 @@ steps:
   - name: StatefulWidget
     directory: statefulwidget
     has_solution: true
+  - name: Rendering Text
+    directory: rendering_text
+    has_solution: true
