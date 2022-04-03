@@ -1,13 +1,19 @@
-name: Example workshop
+name: Learning Flutter for Native iOS Developers
 
 # Accepts 'flutter' or 'dart'
 type: flutter
 
 # Configuration for each step 
 steps:
-  - name: Step 1
-    directory: step_01
+  - name: Flutter vs UIKit vs SwiftUI
+    directory: flutter_vs_uikit_vs_swiftui
     has_solution: true
-  - name: Step 2
-    directory: step_02
-    has_solution: false
+  - name: Rendering in Flutter vs Native iOS
+    directory: rendering_in_flutter_vs_native_ios
+    has_solution: true
+  - name: StatelessWidget
+    directory: statelesswidget
+    has_solution: true
+  - name: StatefulWidget
+    directory: statefulwidget
+    has_solution: true
