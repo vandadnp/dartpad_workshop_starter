@@ -32,3 +32,6 @@ steps:
   - name: Columns
     directory: columns
     has_solution: true
+  - name: Containers
+    directory: containers
+    has_solution: true
