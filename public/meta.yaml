@@ -35,3 +35,6 @@ steps:
   - name: Containers
     directory: containers
     has_solution: true
+  - name: Displaying Images
+    directory: displaying_images
+    has_solution: true
