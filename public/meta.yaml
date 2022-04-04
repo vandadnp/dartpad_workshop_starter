@@ -26,3 +26,9 @@ steps:
   - name: Buttons
     directory: buttons
     has_solution: true
+  - name: Rows
+    directory: rows
+    has_solution: true
+  - name: Columns
+    directory: columns
+    has_solution: true
