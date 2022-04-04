@@ -17,13 +17,13 @@ class HomePage extends StatelessWidget {
         children: [
           Expanded(
             child: Image.network(
-              'https://bit.ly/3ywI8l6',
+              'https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/network_image_1.jpg',
               fit: BoxFit.fitHeight,
             ),
           ),
           Expanded(
             child: Image.network(
-              'https://bit.ly/3qYOtDm',
+              'https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/network_image_2.jpg',
               fit: BoxFit.fitHeight,
             ),
           ),

@@ -4,7 +4,7 @@ Flutter, being a rich and modern UI framework, allows you to work with images re
 
 ## Network Images in UIKit vs SwiftUI vs Flutter
 
-Let's say that you have the following network image to display in your UI: [https://bit.ly/3ywI8l6](https://bit.ly/3ywI8l6)
+Let's say that you have the following network image to display in your UI: [https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/network_image_1.jpg](https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/network_image_1.jpg)
 
 To do that in UIKit, you would probably write a code that is very similar to this, if you didn't use any third party libraries such as Alamofire:
 
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
       imageView.widthAnchor.constraint(equalTo: self.view.widthAnchor),
       imageView.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.5)
     ])
-    let url = URL(string: "https://bit.ly/3ywI8l6")!
+    let url = URL(string: "https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/network_image_1.jpg")!
     URLSession
       .shared
       .dataTask(
@@ -49,7 +49,7 @@ That was a lot of code, phew! Now if you wanted to do the same thing in SwiftUI,
 struct ContentView: View {
   var body: some View {
     AsyncImage(
-      url: URL(string: "https://bit.ly/3ywI8l6")!,
+      url: URL(string: "https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/network_image_1.jpg")!,
       content: { (image) in
         image
           .resizable()
@@ -78,7 +78,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Image.network(
-          'https://bit.ly/3ywI8l6',
+          'https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/network_image_1.jpg',
         ),
       ),
     );
