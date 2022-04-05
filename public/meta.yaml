@@ -41,3 +41,9 @@ steps:
   - name: Lists
     directory: lists
     has_solution: true
+  - name: Async Programming
+    directory: async_programming
+    has_solution: true
+  - name: Thank You
+    directory: thank_you
+    has_solution: false
