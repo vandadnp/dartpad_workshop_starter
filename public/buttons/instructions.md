@@ -25,7 +25,7 @@ struct ContentView: View {
 }
 ```
 
-Now let's impelemnt the same thing in Flutter:
+Now let's implement the same thing in Flutter:
 
 ```dart
 class HomePage extends StatelessWidget {
@@ -59,7 +59,7 @@ class HomePage extends StatelessWidget {
 }
 ```
 
-Note the usage of `TextButton` here. `TextButton` in the Material library of Flutter is the equivalent of `Button` in SwiftUI and `UIButton` in UIKit. Note that Material library in Flutter creates its UI components according to Google's material design. If you want to have iOS-like UI components, as mentioned before, you will have to use the Cupertino library in Flutter. All you'll have to do is to chaneg the `TextButton` to `CupertinoButton` and the `AlertDialog` to `CupertinoAlertDialog`. Yes, it's really that simple in Flutter to chaneg the look and feel of your apps!
+Note the usage of `TextButton` here. `TextButton` in the Material library of Flutter is the equivalent of `Button` in SwiftUI and `UIButton` in UIKit. Note that Material library in Flutter creates its UI components according to Google's material design. If you want to have iOS-like UI components, as mentioned before, you will have to use the Cupertino library in Flutter. All you'll have to do is to change the `TextButton` to `CupertinoButton` and the `AlertDialog` to `CupertinoAlertDialog`. Yes, it's really that simple in Flutter to change the look and feel of your apps!
 
 ## Challenge
 

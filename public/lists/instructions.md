@@ -40,7 +40,7 @@ Note how we are using `ListView.builder` here? The `builder()` function is a con
 
 ## List View Item Builder
 
-The `itemBuilder` parameter of `ListView.builder` construtor, is defined in Flutter in this way:
+The `itemBuilder` parameter of `ListView.builder` constructor, is defined in Flutter in this way:
 
 ```dart
 typedef IndexedWidgetBuilder = Widget Function(BuildContext context, int index);
@@ -93,4 +93,4 @@ Notice how the `Person` class is defined as immutable? That's a hint to the Dart
 
 ## Challenge
 
-Every `ListTile` instance has properties on how the tile should be displayed to the user. In the code above we used the `title` property of our tile instances to display the name of every `Person` class. In this challenge you will neeed to use the `trailing` property of `ListTile` in order to display every person's age. I've already changed the `Person` class for you so that it includes the `age` property. All you have to do is to display it. Good luck now!
+Every `ListTile` instance has properties on how the tile should be displayed to the user. In the code above we used the `title` property of our tile instances to display the name of every `Person` class. In this challenge you will need to use the `trailing` property of `ListTile` in order to display every person's age. I've already changed the `Person` class for you so that it includes the `age` property. All you have to do is to display it. Good luck now!

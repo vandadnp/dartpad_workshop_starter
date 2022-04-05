@@ -49,7 +49,7 @@ class HomePage extends StatelessWidget {
 }
 ```
 
-## Addign a Child Widget to `Container`
+## Adding a Child Widget to `Container`
 
 Just like almost every other widget in Flutter, `Container` has a property called `child` of type `Widget`. That means `Container`, can contain another child inside it; another widget. This is the way Flutter chains widgets to each other. For instance, if you want to detect a tap gesture on a container instance, you would wrap the container instance with a `GestureDetector` as shown here:
 
@@ -94,4 +94,4 @@ Container(
 
 ## Challenge
 
-In the code to the right, we have a blue container that is 100x100 points wide and is placed at the center of the screen. See if you can figure out how to place another container of size 50x50, with a white color, in the mdidle of the outer container.
+In the code to the right, we have a blue container that is 100x100 points wide and is placed at the center of the screen. See if you can figure out how to place another container of size 50x50, with a white color, in the middle of the outer container.

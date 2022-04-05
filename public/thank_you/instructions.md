@@ -2,7 +2,7 @@
 
 I hope you've enjoyed going through this workshop to get familiar with Flutter.
 
-If you're a UIKit developer, moving to Flutter will be a bigger change than if you were a SwiftUI developer. I myself moved to Flutter directly from UIkit and found it to be quite easy, a big change, easy nontheless.
+If you're a UIKit developer, moving to Flutter will be a bigger change than if you were a SwiftUI developer. I myself moved to Flutter directly from UIkit and found it to be quite easy, a big change, easy nonetheless.
 
 What you need to focus on now is to practice! There are many resources available online that can teach you more about Flutter. To start with, you should ideally get familiarized with the [official documentations](https://docs.flutter.dev).
 

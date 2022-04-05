@@ -58,4 +58,4 @@ This does not however center the components in the horizontal (cross) axis. How 
 
 ## Challenge
 
-See if you can figure out a way to center the children of this `Column` instance both horizontall and vertically!
+See if you can figure out a way to center the children of this `Column` instance both horizontally and vertically!
