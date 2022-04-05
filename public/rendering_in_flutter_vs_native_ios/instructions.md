@@ -6,11 +6,11 @@ That's right! Everything that you see on the screen rendered by Flutter, is done
 
 If you look at how the previous example is rendered in a native SwiftUI application, your UI in the 3D Debugger will look like this:
 
-![](http://localhost:8080/images/rendering_in_flutter_vs_native_ios_image_1.png)
+![](https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/rendering_in_flutter_vs_native_ios_image_1.png)
 
 If you run the same Flutter code from the previous step and check out the 3D Debugger, you'd see the following rendering:
 
-![](http://localhost:8080/images/rendering_in_flutter_vs_native_ios_image_2.png)
+![](https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/rendering_in_flutter_vs_native_ios_image_2.png)
 
 Notice the absence of any label or text component on the screen? That's because Skia is rendering that component on that single `FlutterViewController` instance using Metal on iOS!
 
