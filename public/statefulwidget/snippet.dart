@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
+    // CupertinoApp?
     const MaterialApp(
       home: HomePage(),
     ),
@@ -22,6 +23,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    // CupertinoPageScaffold?
     return Scaffold(
       body: SafeArea(
         child: Column(children: [

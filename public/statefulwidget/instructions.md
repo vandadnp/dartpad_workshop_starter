@@ -29,6 +29,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  // Random Thought: Keep accepting the title as part of the constructor and display it below. Then, introduce a new variable called currentTime which stores and displays this information? That way you can show them how to use constructor params in StatefulWidget?
   String title = DateTime.now().toIso8601String();
 
   @override
@@ -47,10 +48,11 @@ class _HomePageState extends State<HomePage> {
 }
 ```
 
-This might look like a lot of code, and compared to the SwiftUI variant, it is, but it's mostly boilerplate code which we will go through in this chapter.
+This might look like a lot of code, and compared to the SwiftUI variant, it is. However, it's mostly boilerplate code which we will go through in this chapter.
 
 ## What is `StatefulWidget`?
 
+<!-- this is tricky... the StatefulWidget doesn't really have access to setState, but rather the State class does. Might be a good idea to talk about the two separate objects up front, then dive into what each one does? Example from the docs, could be rewritten in more friendly language: "StatefulWidget instances themselves are immutable and store their mutable state separate State objects that are created by the createState method." E.g. "The StatefulWidgets accepts configuration data and creates a State object. The State object manages the data that can change over time and rebuilds when it does." -->
 A stateful widget, as its name indicates, is an instance of `StatefulWidget` class in Flutter. This class has access to a special function called `setState()`. The `setState()` function, allows you to signal to the Flutter engine that you are making changes to the UI of this widget and need the engine to redraw the modified part of the UI after your call to `setState()` is done. If you look at the code on how we call this function:
 
 ```dart
@@ -84,4 +86,5 @@ The takeaway from this for you as a SwiftUI or UIKit developer should be that in
 
 ## Challenge
 
+<!-- Could potentially ask them to use Dartpad to "Convert to StatefulWidget" as well. Helpful to teach about Dart IDE tools. -->
 In this challenge, you'll need to execute the `setState()` function as you learned here, and upon the text button being pressed, you'll need to get the `Text` widget to display the current time. Look at the comments in the code and see if you can figure it out! Good luck.

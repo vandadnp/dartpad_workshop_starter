@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
+    // CupertinoApp?
     const MaterialApp(
       home: HomePage(),
     ),
@@ -13,6 +14,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // CupertinoPageScaffold?
     return const Scaffold(
       body: Text(
         'Hello, world!',

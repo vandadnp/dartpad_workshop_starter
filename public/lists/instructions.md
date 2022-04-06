@@ -22,6 +22,7 @@ class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
+    // Does it make sense to use normal ListView(children: [Text, Text]) here for a direct comparison, then introduce builder as a speed improvement? Not sure if that would help folks visualize the similarities.
     return Scaffold(
       body: ListView.builder(
         itemCount: 2,
@@ -66,7 +67,7 @@ class Person {
   const Person(this.name);
 }
 
-const persons = [
+const people = [
   Person('Foo'),
   Person('Bar'),
 ];
@@ -77,10 +78,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView.builder(
-        itemCount: persons.length,
+        itemCount: people.length,
         itemBuilder: (context, index) {
           return ListTile(
-            title: Text(persons[index].name),
+            title: Text(people[index].name),
           );
         },
       ),

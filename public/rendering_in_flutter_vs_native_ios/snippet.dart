@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 
 void main() {
   runApp(
+    // Maybe leave this as a MaterialApp and ask them to convert it to a CupertinoApp?
     const CupertinoApp(
       home: HomePage(),
     ),

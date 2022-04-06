@@ -1,8 +1,8 @@
 # `StatelessWidget`
 
-In SwiftUI, any view can have a state and watch changes to an observable object. In Flutter however, state is an absolute subject meaning that your views either do or don't have a state. If your views don't have a state, meaning that they won't get re-rendered should any of their properties change, then you should use a `StatelessWidget`.
+In SwiftUI, any view can have a state and watch changes to an observable object. In Flutter however, state is an absolute subject meaning that your views either do or don't have a state. If your views don't have a state, meaning they don't manage data that can change over time, then you should use a `StatelessWidget`.
 
-By now you have heard a lot about widgets in this workshop. In Flutter almost everything is a widget. Even a gesture detector/recognizer in Flutter is a widget. The child of the gesture detector is the view/widget that wants to have gesture recognition. `StatelessWidget` as its name indicates is not an exception from this concept in that `StatelessWidget` as its name indicates is also a widget!
+By now you have heard a lot about widgets in this workshop. In Flutter almost everything is a widget. Even a gesture detector/recognizer in Flutter is a widget. The `child` of the `GestureDetector` is the view/widget that wants to have gesture recognition. `StatelessWidget` as its name indicates is not an exception from this concept in that `StatelessWidget` as its name indicates is also a widget!
 
 ## `StatelessWidget` Is Immutable
 
@@ -25,7 +25,7 @@ abstract class Widget extends DiagnosticableTree {
   ...
 ```
 
-Do you notice the `@immutable` tag there on top of the `Widget` definition? That means that `Widget` and any subclasses of `Widget` including `StatelessWidget` should be immutable, meaning that they should not have any variable properties.
+Do you notice the `@immutable` tag there on top of the `Widget` definition? That means that `Widget` and any subclasses of `Widget` including `StatelessWidget` should only store data that does not change over time.
 
 Let's compare this with how `View` is defined in `SwiftUI`:
 
@@ -43,6 +43,7 @@ public protocol View {
   ...
 ```
 
+<!-- Does this paragraph make more sense as the first paragraph for the next step? It feels a little out of place here, but could be a great intro paragraph for StatefulWidget. -->
 In SwiftUI, your state is managed by your state variables whereas in Flutter your state is managed by a widget called `StatefulWidget` which is able to re-render itself should any of its state variables change, very similar to SwiftUI in fact if you think about it. In that sense, you could say that `View` in SwiftUI plus `@State` variables are similar to `StatefulWidget` (note stateful, not stateless). We will talk about `StatefulWidget` in the next step but for now let's focus on `StatelessWidget`.
 
 ## Small Challenge
