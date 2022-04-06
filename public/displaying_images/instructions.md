@@ -96,6 +96,7 @@ public struct AsyncImage<Content> : View where Content : View {
   ...
 ```
 
+<!-- ImageProvider in Flutter serves a similar purpose as Image object? Maybe discuss NetworkImageProvider? Not sure if important at this stage... -->
 In Flutter, when working with image, we usually don't have the separate concept of an image object and the view that display the image. All we need really is the `Image` widget and that widget has factory constructors that allow you to create network, memory and bundled images! However, in Flutter if you wish to load the data for your images from disk for instance, you can place the read bytes into a list of bytes (which we won't go into details of right now) and then pass those read bytes later into the `Image.memory()` factory constructor to display the image to the user!
 
 ## Challenge

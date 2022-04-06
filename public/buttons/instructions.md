@@ -1,6 +1,6 @@
 # Buttons
 
-Buttons in almost every application that has a user interface play an important role. They allow the user to take action, that's why sometimes we call them CTA, Call to Action, which in fact is a marketing term!
+Buttons are found in almost every application and play an important role: they allow the user to take an action. That's why sometimes we refer to them as Calls to Action (CTA), which in fact is a marketing term!
 
 ## Buttons in SwiftUI vs Flutter
 
@@ -58,7 +58,7 @@ class HomePage extends StatelessWidget {
   }
 }
 ```
-
+<!-- CupertinoButton? -->
 Note the usage of `TextButton` here. `TextButton` in the Material library of Flutter is the equivalent of `Button` in SwiftUI and `UIButton` in UIKit. Note that Material library in Flutter creates its UI components according to Google's material design. If you want to have iOS-like UI components, as mentioned before, you will have to use the Cupertino library in Flutter. All you'll have to do is to change the `TextButton` to `CupertinoButton` and the `AlertDialog` to `CupertinoAlertDialog`. Yes, it's really that simple in Flutter to change the look and feel of your apps!
 
 ## Challenge
