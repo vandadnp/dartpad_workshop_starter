@@ -1,6 +1,6 @@
 # Buttons
 
-Buttons in almost every application that has a user interface play an important role. They allow the user to take action, that's why sometimes we call them CTA, Call to Action, which in fact is a marketing term!
+Buttons are found in almost every application and play an important role: they allow the user to take an action. That's why sometimes we refer to them as Calls to Action (CTA), which in fact is a marketing term!
 
 ## Buttons in SwiftUI vs Flutter
 

@@ -47,11 +47,11 @@ class _HomePageState extends State<HomePage> {
 }
 ```
 
-This might look like a lot of code, and compared to the SwiftUI variant, it is, but it's mostly boilerplate code which we will go through in this chapter.
+This might look like a lot of code, and compared to the SwiftUI variant, it is. However, it's mostly boilerplate code which we will go through in this chapter.
 
 ## What is `StatefulWidget`?
 
-A stateful widget, as its name indicates, is an instance of `StatefulWidget` class in Flutter. This class has access to a special function called `setState()`. The `setState()` function, allows you to signal to the Flutter engine that you are making changes to the UI of this widget and need the engine to redraw the modified part of the UI after your call to `setState()` is done. If you look at the code on how we call this function:
+A stateful widget, as its name indicates, is an instance of `StatefulWidget` class in Flutter. This class has access to a special function called `setState()` through its state object (of type `State`). The `setState()` function, allows you to signal to the Flutter engine that you are making changes to the UI of this widget and need the engine to redraw the modified part of the UI after your call to `setState()` is done. If you look at the code on how we call this function:
 
 ```dart
 setState(() => title = DateTime.now().toIso8601String());

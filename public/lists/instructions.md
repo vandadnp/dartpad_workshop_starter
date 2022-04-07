@@ -15,7 +15,26 @@ struct ContentView: View {
 }
 ```
 
-In Flutter, if you had to create a similar list, you would use the `ListView` view to render the list items, and each item would ideally be of type `ListTile` as shown here:
+In Flutter, if you had to create a similar list, you would use the `ListView` view to render the list items, and each item would ideally be of type `ListTile`. However, just like the SwiftUI example above, you can create a very simple `ListView` instance in Flutter with the following code:
+
+```dart
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: ListView(
+        children: const [
+          Text('Hello'),
+          Text('World'),
+        ],
+      ),
+    );
+  }
+}
+```
+
+However, if you were to do this "correctly", you would probably use `ListView` together with instances of `ListTile` that are similar to `UITableView` and `UITableViewCell` in UIKit:
 
 ```dart
 class HomePage extends StatelessWidget {
@@ -66,7 +85,7 @@ class Person {
   const Person(this.name);
 }
 
-const persons = [
+const people = [
   Person('Foo'),
   Person('Bar'),
 ];
@@ -77,10 +96,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView.builder(
-        itemCount: persons.length,
+        itemCount: people.length,
         itemBuilder: (context, index) {
           return ListTile(
-            title: Text(persons[index].name),
+            title: Text(people[index].name),
           );
         },
       ),

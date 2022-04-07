@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
 void main() {
@@ -14,12 +13,13 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      appBar: CupertinoNavigationBar(
+    return CupertinoPageScaffold(
+      navigationBar: const CupertinoNavigationBar(
         leading: Text('Leading'),
         middle: Text('Hello from Flutter'),
         trailing: Text('Trailing'),
       ),
+      child: Container(),
     );
   }
 }

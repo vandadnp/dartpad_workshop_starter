@@ -1,6 +1,6 @@
 # Rows
 
-A row, in UI frameworks, usually is a UI component that arranges its children horizontally. In SwiftUI a row is constructed using `HStack`, in UIKit a row is created with a `UIStackView` with a horizontal axis and in Flutter a row, well, is created with the `Row` widget.
+A row is a UI component that arranges its children horizontally. In SwiftUI, a row is constructed using `HStack`, in UIKit a row is created with a `UIStackView` with a horizontal axis. In Flutter, a row is created with the `Row` widget.
 
 # Rows in SwiftUI vs Flutter
 
@@ -44,7 +44,9 @@ Whereas in SwiftUI the constructor of many UI components, such as `HStack`, has 
 
 ## Main and Cross Axis in `Row`
 
-Row is a component that arranges its children horizontally. Therefore its *main axis* is horizontal and is across the screen from left to right. The *cross axis* of the `Row` class is perpendicular to its main axis, meaning that the cross axis of a row is vertical, runs from top to bottom. It's important to understand the difference between these axis since there are properties both inside `Row` and `Column` (which we will talk about later) that control the arrangement of the children of these components. In SwiftUI, these alignment options are exposed through `HorizontalAlignment` and `VerticalAlignment`. In Flutter, they are exposed as `MainAxisAlignment` and `CrossAxisAlignment` where the main axis alignment of a row controls the horizontal positioning of its children since the main axis of a row is horizontal and its cross axis alignment controls the vertical positioning of its children since cross axis of a row is vertical.
+Row is a component that arranges its children horizontally. Therefore its *main axis* is horizontal and is across the screen from left to right. The *cross axis* of the `Row` class is perpendicular to its main axis, meaning that the cross axis of a row is vertical, runs from top to bottom. It's important to understand the difference between these axis since there are properties both inside `Row` and `Column` (which we will talk about later) that control the arrangement of the children of these components.
+
+In SwiftUI, these alignment options are exposed through `HorizontalAlignment` and `VerticalAlignment`. In Flutter, they are exposed as `MainAxisAlignment` and `CrossAxisAlignment` where the main axis alignment of a row controls the horizontal positioning of its children since the main axis of a row is horizontal and its cross axis alignment controls the vertical positioning of its children since cross axis of a row is vertical.
 
 For instance, if you want a row to place all its children in the center of its available horizontal space (main axis, since row is a horizontal component), you'd write your code like this:
 
@@ -61,3 +63,5 @@ Row(
 ## Challenge
 
 Now that you know about cross and main axis alignment in Flutter, see if you can complete the challenge on the right hand side by following the instructions I've provided for you in form of comments. Good luck!
+
+Tip: if you want to get a list of available options inside the code-editor to the right as you are writing your code, hold down Ctrl+Space. This will give you a list similar to Xcode when you press the exact same key combinations.
