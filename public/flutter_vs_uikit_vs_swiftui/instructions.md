@@ -1,5 +1,9 @@
 # Flutter vs UIKit vs SwiftUI
 
+This workshops is authored by Vandad Nahavandipoor, feel free to reach out to me on:
+  * [Twitter (click here)](https://twitter.com/vandadnp)
+  * [LinkedIn (click here)](https://linkedin.com/in/vandadnp)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v-KV2N-UUts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Flutter is Google's UI Framework that allows you to create beautiful applications on mobile, web and desktop with minimum effort. Flutter allows you to create your UI in a *declarative* way, much like SwiftUI. In that sense, Flutter is quite different from UIKit. UIKit allows you to create your UI in an *imperative* way, meaning you need to specify even the simplest constraints in order to ensure that a component is positioned properly on the screen. 
