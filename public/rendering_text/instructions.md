@@ -60,11 +60,11 @@ class HomePage extends StatelessWidget {
 }
 ```
 
-Notice how we are styling the `Text` widget using its `style` property. This property is passed to the constructor of the `Text` widget. Whereas in SwiftUI you modify a `View` using both constructors and modifiers, in `Flutter` you usually pass all these properties to the constructor of the `Widget` that you are rendering on the screen.
+Notice how you are styling the `Text` widget using its `style` property. This property is passed to the constructor of the `Text` widget. Whereas in SwiftUI you modify a `View` using both constructors and modifiers, in `Flutter` you usually pass all these properties to the constructor of the `Widget` that you are rendering on the screen.
 
 ## Challenge
 
-In this example we are going to render an italic text to the screen. In SwiftUI you would write the code as shown here:
+In this example you are going to render an italic text to the screen. In SwiftUI you would write the code as shown here:
 
 ```
 struct ContentView: View {

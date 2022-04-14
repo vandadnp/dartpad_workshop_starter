@@ -10,7 +10,7 @@ This workshops is authored by Vandad Nahavandipoor. If you have any questiosn, f
 
 Flutter is Google's UI Framework that allows you to create beautiful applications on mobile, web and desktop with minimum effort. Flutter allows you to create your UI in a *declarative* way, much like SwiftUI. In that sense, Flutter is quite different from UIKit. UIKit allows you to create your UI in an *imperative* way, meaning you need to specify even the simplest constraints in order to ensure that a component is positioned properly on the screen. 
 
-Much like SwiftUI, Flutter tries to ensure that the rendering engine takes care of much of the hassle of positioning components, leaving the programmer to focus on declaration of the UI, just like SwiftUI. Therefore in this workshop we will mainly focus on similarities of Flutter and SwiftUI and every now and then draw some comparisons between Flutter and UIKit too.
+Much like SwiftUI, Flutter tries to ensure that the rendering engine takes care of much of the hassle of positioning components, leaving the programmer to focus on declaration of the UI, just like SwiftUI. Therefore in this workshop you will mainly focus on similarities of Flutter and SwiftUI and every now and then draw some comparisons between Flutter and UIKit too.
 
 ## Flutter vs UIKit Brief Comparison
 
@@ -53,11 +53,11 @@ class HomePage extends StatelessWidget {
 }
 ```
 
-Take a moment to look at the declarative style of Flutter's UI generation. `Scaffold`, `SafeArea` and `Text` in this example are all widgets. We will talk more about widgets soon.
+Take a moment to look at the declarative style of Flutter's UI generation. `Scaffold`, `SafeArea` and `Text` in this example are all widgets. You will learn more about widgets soon.
 
 ## Flutter vs SwiftUI Brief Comparison
 
-If we took the Dart code, and re-wrote the same code in SwiftUI, we'd probably end up with something like this:
+If you took the Dart code, and re-wrote the same code in SwiftUI, we'd probably end up with something like this:
 
 ```
 import SwiftUI

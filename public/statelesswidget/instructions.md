@@ -47,4 +47,4 @@ In SwiftUI, your state is managed by your state variables whereas in Flutter you
 
 ## Small Challenge
 
-In the code on the right hand side, we have a compile-time error. See if you can find the issue and solve it given the instructions I've left for you in the code.
+In the code on the right hand side, you have a compile-time error. See if you can find the issue and solve it given the instructions I've left for you in the code.

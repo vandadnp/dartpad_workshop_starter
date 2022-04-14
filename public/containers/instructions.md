@@ -94,4 +94,4 @@ Container(
 
 ## Challenge
 
-In the code to the right, we have a blue container that is 100x100 points wide and is placed at the center of the screen. See if you can figure out how to place another container of size 50x50, with a white color, in the middle of the outer container.
+In the code to the right, you have a blue container that is 100x100 points wide and is placed at the center of the screen. See if you can figure out how to place another container of size 50x50, with a white color, in the middle of the outer container.

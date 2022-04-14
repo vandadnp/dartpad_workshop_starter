@@ -63,4 +63,4 @@ Note the usage of `TextButton` here. `TextButton` in the Material library of Flu
 
 ## Challenge
 
-In this challenge we are going to use our knowledge of `setState()` and `TextButton` in order to allow the user to tap on any of the two buttons presented on the screen, upon pressing which the `Text` component will display which button was pressed!
+In this challenge you are going to use your knowledge of `setState()` and `TextButton` in order to allow the user to tap on any of the two buttons presented on the screen, upon pressing which the `Text` component will display which button was pressed!

@@ -1,6 +1,6 @@
 # Rendering in Flutter vs Native iOS
 
-If we take the example from the previous section and run it on an iOS Simulator while doing 3D debugging in Xcode, you will see quite a few layers rendered on the screen. If you do the same code in Flutter, you'll see that the Flutter's rendering engine draws up a single view controller called `FlutterViewController` and renders your text on it. How does Flutter do that? Flutter uses Metal on iOS/ipadOS/macOS in order to render its contents.
+If you take the example from the previous section and run it on an iOS Simulator while doing 3D debugging in Xcode, you will see quite a few layers rendered on the screen. If you do the same code in Flutter, you'll see that the Flutter's rendering engine draws up a single view controller called `FlutterViewController` and renders your text on it. How does Flutter do that? Flutter uses Metal on iOS/ipadOS/macOS in order to render its contents.
 
 That's right! Everything Flutter displays on screen is drawn by Flutter's rendering engine, Skia. Skia takes the code that you've written in your Flutter application, and uses native rendering techniques in order to display your application's UI to the user. That means your UI is very flat and rendered by Metal on iOS and OpenGL ES on Android in order to ensure maximum performance.
 

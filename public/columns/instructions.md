@@ -54,7 +54,7 @@ Column(
 )
 ```
 
-This does not however center the components in the horizontal (cross) axis. How do we do that, you might ask? Well, that's for you to figure out in the challenge below!
+This does not however center the components in the horizontal (cross) axis. How do you do that, you might ask? Well, that's for you to figure out in the challenge below!
 
 ## Challenge
 

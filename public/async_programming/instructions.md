@@ -15,7 +15,7 @@ Notice how the result is a tuple? In Dart, the same function would be marked as 
 
 ## Async Functions in SwiftUI vs Flutter
 
-Let's have a look at an example in SwiftUI where we want to grab the `Data` that comes back when we fetch the contents of `https://google.com`:
+Let's have a look at an example in SwiftUI where you want to grab the `Data` that comes back when you fetch the contents of `https://google.com`:
 
 ```
 func getData() async throws -> Data {
@@ -67,8 +67,8 @@ class HomePage extends StatelessWidget {
 }
 ```
 
-The major difference in this example compared to the SwiftUI example is that in Flutter, you can change the `onPressed` callback of the `TextButton` to become an `async` function by just adding `async` to its declaration. In SwiftUI however, we can't do that and need to create a `Task` inside the action. That's another way Flutter makes it easier for us programmers to work with asynchronous operations.
+The major difference in this example compared to the SwiftUI example is that in Flutter, you can change the `onPressed` callback of the `TextButton` to become an `async` function by just adding `async` to its declaration. In SwiftUI however, you can't do that and need to create a `Task` inside the action. That's another way Flutter makes it easier for us programmers to work with asynchronous operations.
 
 ## Challenge
 
-In this example we have 2 dummy functions. One that returns a `String` of `Foo` after 1 second, hence it being a `Future<String>` and another one that returns the value of `Bar`. We assume they are the first and last names of a person. Your challenge is to put these two strings together to form the full name, _Foo Bar_. Good luck!
+In this example you have 2 dummy functions. One that returns a `String` of `Foo` after 1 second, hence it being a `Future<String>` and another one that returns the value of `Bar`. Let's assume they are the first and last names of a person. Your challenge is to put these two strings together to form the full name, _Foo Bar_. Good luck!

@@ -1,6 +1,6 @@
 # `StatefulWidget`
 
-State in Flutter and SwiftUI are handled similarly, yet the syntax can look different, as you'd expect. Let's have a look at an example. Let's say that we want to have a very simple SwiftUI application that displays a text on the screen. By default the text displays the current date and time. Upon tapping the text, the date and time at the time of tapping the text are extracted and put back into the text. The code would look like this:
+State in Flutter and SwiftUI are handled similarly, yet the syntax can look different, as you'd expect. Let's have a look at an example. Let's say that you want to have a very simple SwiftUI application that displays a text on the screen. By default the text displays the current date and time. Upon tapping the text, the date and time at the time of tapping the text are extracted and put back into the text. The code would look like this:
 
 ```
 import SwiftUI
@@ -51,7 +51,7 @@ This might look like a lot of code, and compared to the SwiftUI variant, it is. 
 
 ## What is `StatefulWidget`?
 
-A stateful widget, as its name indicates, is an instance of `StatefulWidget` class in Flutter. This class has access to a special function called `setState()` through its state object (of type `State`). The `setState()` function, allows you to signal to the Flutter engine that you are making changes to the UI of this widget and need the engine to redraw the modified part of the UI after your call to `setState()` is done. If you look at the code on how we call this function:
+A stateful widget, as its name indicates, is an instance of `StatefulWidget` class in Flutter. This class has access to a special function called `setState()` through its state object (of type `State`). The `setState()` function, allows you to signal to the Flutter engine that you are making changes to the UI of this widget and need the engine to redraw the modified part of the UI after your call to `setState()` is done. If you look at the code on how you'd call this function:
 
 ```dart
 setState(() => title = DateTime.now().toIso8601String());

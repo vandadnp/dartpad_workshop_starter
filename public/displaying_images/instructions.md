@@ -96,10 +96,10 @@ public struct AsyncImage<Content> : View where Content : View {
   ...
 ```
 
-In Flutter, when working with image, we usually don't have the separate concept of an image object and the view that display the image. All we need really is the `Image` widget and that widget has factory constructors that allow you to create network, memory and bundled images! However, in Flutter if you wish to load the data for your images from disk for instance, you can place the read bytes into a list of bytes (which we won't go into details of right now) and then pass those read bytes later into the `Image.memory()` factory constructor to display the image to the user!
+In Flutter, when working with image, you usually don't have the separate concept of an image object and the view that display the image. All you need really is the `Image` widget and that widget has factory constructors that allow you to create network, memory and bundled images! However, in Flutter if you wish to load the data for your images from disk for instance, you can place the read bytes into a list of bytes (which we won't go into details of right now) and then pass those read bytes later into the `Image.memory()` factory constructor to display the image to the user!
 
 ## Challenge
 
-In this challenge we want 2 network images to fill the entire width and height of the screen. I've placed one of these images inside the Column, and wrapped the image inside an `Expanded` widget. The expanded widget allows you to proportionally fill the available space with its `flex` property which is set to 1 by default. If you have two `Expanded` widgets inside a `Column` both of which have a flex value of 1, they will fill the available space and divide the space between each other equally.
+In this challenge you want 2 network images to fill the entire width and height of the screen. I've placed one of these images inside the Column, and wrapped the image inside an `Expanded` widget. The expanded widget allows you to proportionally fill the available space with its `flex` property which is set to 1 by default. If you have two `Expanded` widgets inside a `Column` both of which have a flex value of 1, they will fill the available space and divide the space between each other equally.
 
 See if you can load the second image at the second half of the container's available vertical space. Good luck!

@@ -76,7 +76,7 @@ What this parameter expects is a function that takes in two parameters:
 1. a build context, which is Flutter's reference to the widget hierarchy for the current widget
 2. an integer index into the item to be displayed
 
-The index is very useful and it will allow you to extract the relevant model object to be displayed in your `ListView`. Let's have a look at a more complex example. Let's say we have a list/array of `Person` class instances that we want to display to the user inside a `ListView`. First we go about creating our class `Person` and then instances of it and then place those instances inside our list:
+The index is very useful and it will allow you to extract the relevant model object to be displayed in your `ListView`. Let's have a look at a more complex example. Let's say you have a list/array of `Person` class instances that you want to display to the user inside a `ListView`. First you'd go about creating our class `Person` and then instances of it and then place those instances inside our list:
 
 ```dart
 @immutable
@@ -108,8 +108,8 @@ class HomePage extends StatelessWidget {
 }
 ```
 
-Notice how the `Person` class is defined as immutable? That's a hint to the Dart _analyzer_ that will then warn us if we create a mutable sub-class of the `Person` class. Whereas in Swift we have `struct` and `class`, in Dart all we have is `class` so to make the classes immutable like `struct` in Swift, you'd have to mark the class as `@immutable`.
+Notice how the `Person` class is defined as immutable? That's a hint to the Dart _analyzer_ that will then warn you if you create a mutable sub-class of the `Person` class. Whereas in Swift you have `struct` and `class`, in Dart all you have is `class` so to make the classes immutable like `struct` in Swift, you'd have to mark the class as `@immutable`.
 
 ## Challenge
 
-Every `ListTile` instance has properties on how the tile should be displayed to the user. In the code above we used the `title` property of our tile instances to display the name of every `Person` class. In this challenge you will need to use the `trailing` property of `ListTile` in order to display every person's age. I've already changed the `Person` class for you so that it includes the `age` property. All you have to do is to display it. Good luck now!
+Every `ListTile` instance has properties on how the tile should be displayed to the user. In the code above you used the `title` property of our tile instances to display the name of every `Person` class. In this challenge you will need to use the `trailing` property of `ListTile` in order to display every person's age. I've already changed the `Person` class for you so that it includes the `age` property. All you have to do is to display it. Good luck now!
