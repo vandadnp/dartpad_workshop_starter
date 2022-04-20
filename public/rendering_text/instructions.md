@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
 }
 ```
 
-## Styling `Text`
+## Styling Text
 
 In SwiftUI, if you want to change the way text is rendered on the screen, you would use what is called *modifiers*. For instance, to change the font using which your text is rendered, you would use a modifier to change the font as shown here:
 

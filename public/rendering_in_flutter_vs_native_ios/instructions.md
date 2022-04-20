@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
 }
 ```
 
-Notice the followings in the above code?
+Notice the following in the above code?
 
 * Use of `CupertinoApp` instead of `MaterialApp`
 * Use of `CupertinoNavigationBar` in our `CupertinoPageScaffold` widget

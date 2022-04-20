@@ -1,6 +1,6 @@
 # Flutter vs UIKit vs SwiftUI
 
-This workshops is authored by Vandad Nahavandipoor. If you have any questiosn, feel free to reach out to me on:
+This workshops is authored by Vandad Nahavandipoor. If you have any questions, feel free to reach out to me on:
 
 <img src="https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/twitter.png" style="width: 15px; height: 15px;"> [Twitter (click here)](https://twitter.com/vandadnp)
 

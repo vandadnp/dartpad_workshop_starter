@@ -35,7 +35,7 @@ hello.text = "World"
 stack.addArrangedSubview(world)
 ```
 
-## Main and Cross Axis for `Column`
+## Main and Cross Axis for Column
 
 Just like a `Row`, all columns have two axis:
 

@@ -4,7 +4,7 @@ In SwiftUI, any view can have a state and watch changes to an observable object.
 
 By now you have heard a lot about widgets in this workshop. In Flutter almost everything is a widget. Even a gesture detector/recognizer in Flutter is a widget. The `child` of the `GestureDetector` is the view/widget that wants to have gesture recognition. `StatelessWidget` as its name indicates is not an exception from this concept in that `StatelessWidget` as its name indicates is also a widget!
 
-## `StatelessWidget` Is Immutable
+## StatelessWidget Is Immutable
 
 Since Flutter is open-source, using your favorite code editor, you can drill down into its code and look at how the `StatelessWidget` class is defined:
 

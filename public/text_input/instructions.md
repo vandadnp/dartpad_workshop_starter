@@ -84,6 +84,6 @@ Notice how you are using a `TextEditingController` in this example. In Flutter, 
 
 Note also how you are overriding the `initState()` and `dispose()` functions of our `StatefulWidget`. These functions are called as your stateful widget is initialized and then disposed and removed from the widget tree so they are perfect for mounting new objects and disposing of them later. This could however get quite tiresome and for that there are packages available that remove the boilerplate code, such as the Flutter Hooks package which I've explained in great details in this video: [https://youtu.be/XsbxM1Aztpo](https://youtu.be/XsbxM1Aztpo)
 
-# Challenge
+## Challenge
 
 In a view where a user can enter their password, the password field would need to be obscure, meaning that the user should not be able to see the text they are typing in the text field for the sake of security. See if you can figure out how to create such a TextField in Flutter in the code on the right hand side!
