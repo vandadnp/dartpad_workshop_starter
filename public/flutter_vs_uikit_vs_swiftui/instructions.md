@@ -4,7 +4,7 @@ This workshops is authored by Vandad Nahavandipoor. If you have any questions, f
 
 <img src="https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/twitter.png" style="width: 15px; height: 15px;"> [Twitter (click here)](https://twitter.com/vandadnp)
 
-<img src="https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/linkedin.png" style="width: 15px; height: 15px;"> [LinkedIn (click here)](https://twitter.com/vandadnp)
+<img src="https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/images/linkedin.png" style="width: 15px; height: 15px;"> [LinkedIn (click here)](https://linkedin.com/in/vandadnp)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v-KV2N-UUts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
